@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Tracker</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+
+<body>
+    <section class="index">
+        <header>
+            <a href="#"><span class="spn">C<i class="fas fa-virus">VID</i></span></a>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#prevent">Prevent</a></li>
+                <li><a href="#symptoms">Symptoms</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </header>
+        <img src="/home-bg.jpg" alt="" class="index">
+        <hr>
+        <h1 class="sec1">Prevention From Corona Virus</h1>
+        <h2 class="sec2">Stay Home, Stay Safe</h2>
+        <div class="button1">
+            <a href="#prevent" class="btn">How To Prevent</a>
+        </div>
+        <!-- <h1>This is Home</h1> -->
+    </section>
+
+    <section id="prevent">
+
+        <h2 id="sech2">HOW TO PREVENT VIRUS</h2>
+        <div class="card">
+            <div class="card1">
+                <img src="/pre-1.png">
+                <div class="container">
+                    <h4><b>Clean Your Place</b></h4>
+                    <p>Always try to keep your surroundings and your house clean.</p>
+                </div>
+            </div>
+            <div class="card2">
+                <img src="/pre-2.png">
+                <div class="container">
+                    <h4><b>Maintain Distance</b></h4>
+                    <p>Always try to maintain a proper distance from people.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="/pre-3.png">
+                <div class="container">
+                    <h4><b>Dont't Touch Face</b></h4>
+                    <p>Don't touch your face because it can spread virus even faster by touching it.</p>
+                </div>
+            </div>
+            <div class="card4">
+                <img src="/pre-4.png">
+                <div class="container">
+                    <h4><b>Wash Your Hand</b></h4>
+                    <p>Always wash your hands whenever you come to your home from outside. It can prevent virus at some
+                        extent.</p>
+                </div>
+            </div>
+            <div class="card5">
+                <img src="/pre-5.png">
+                <div class="container">
+                    <h4><b>Use Napkin</b></h4>
+                    <p>Usage of Napkins can be used while cough or sneeze to prevent infection.</p>
+                </div>
+            </div>
+            <div class="card6">
+                <img src="/pre-6.png">
+                <div class="container">
+                    <h4><b>Wear A Mask</b></h4>
+                    <p>It is a best practice to wear a mask whenever you step out of your home.It helps to keep an
+                        individual safe from virus.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <img src="/background-img.jpg" alt="" class="index">
+        <!-- <h1>This is prevent</h1> -->
+    </section>
+
+    <section id="symptoms">
+
+        <h2 id="sym1">COVID-19 SYMPTOMS</h2>
+        <div class="card0">
+            <div class="cardo">
+                <img src="/symp-a.png">
+                <div class="container">
+                    <h4><b>Dry Cough</b></h4>
+
+                </div>
+            </div>
+            <div class="card2a">
+                <img src="/symp-b.png">
+                <div class="container">
+                    <h4><b>Fever</b></h4>
+
+                </div>
+            </div>
+            <div class="card3b">
+                <img src="/symp-c.png">
+                <div class="container">
+                    <h4><b>Sore Throat</b></h4>
+
+                </div>
+            </div>
+            <div class="card4c">
+                <img src="/symp-d.png">
+                <div class="container">
+                    <h4><b>Headache</b></h4>
+
+                </div>
+            </div>
+            <div class="card5d">
+                <img src="/symp-e.png">
+                <div class="container">
+                    <h4><b>Cold</b></h4>
+
+                </div>
+            </div>
+            <div class="card6e">
+                <img src="/symp-f.png">
+                <div class="container">
+                    <h4><b>Vomiting</b></h4>
+                </div>
+            </div>
+
+        </div>
+        <!-- <h1>This is symptoms</h1> -->
+        <img src="/background-img.jpg" alt="" class="index">
+
+
+        <section id="contact">
+            <div class="main-block">
+                <form method="post" action="" id="contactForm">
+                    <div class="alert">
+                        Your Message is sent.
+                    </div>
+                    <br>
+                    <h1>Contact Us</h1>
+                    <div class="info">
+                        <input class="fname" type="text" id="name" placeholder="Full name">
+                        <input type="email" id="email" placeholder="Email">
+                        <input type="number" id="phno" placeholder="Phone number">
+                    </div>
+                    <p>Message</p>
+                    <div>
+                        <textarea rows="4" id="textarea"></textarea>
+                    </div>
+                    <button type="submit" href="/">Submit</button>
+                </form>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="/script.js"></script>
+</body>
+
+</html>
